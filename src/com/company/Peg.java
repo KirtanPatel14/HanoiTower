@@ -13,6 +13,8 @@ public class Peg {
     {
         pegNum = peg;
         numDiscs = num;
+        discs = new int[num];
+        count =0;
 
     }
 
@@ -37,7 +39,7 @@ public class Peg {
             count++;
         }
         else{
-            System.out.println("invalid");
+            System.out.println("can't do that");
             return false;
         }
         return true;
